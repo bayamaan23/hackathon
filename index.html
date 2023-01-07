@@ -5,10 +5,360 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class=" d-flex justify-content-between container">
+          <div>
+            <!-- <img src="./images/logo.svg" alt=""> -->
+            <a class="nav-link active text-white" href="#">MB</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="nav-link active text-white" aria-current="page" href="#">О себе</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active text-white" href="#">Умения</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active text-white" href="#">Хобби</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active text-white" href="#">Фото</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active text-white" href="#">Интересное</a>
+              </li>
+              <button class="btn btn-dark rounded-5 border-0" type="submit" style="width: 210px; background-color: #a2a4e6;">
+                Отправить запрос
+              </button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    
+
+    <section class="main-img">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/it.jpg" class="d-block w-100" style="height: 486px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Программирование</h5>
+        <p>В данный момент Программирование одно из самых важных вещей в моей жизни </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/football-2.jpg" class="d-block w-100"  style="height: 486px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Футбол</h5>
+        <p class=" fw-bold">Мечта детсва стать футболистом, поэтому этот спорт у меня в крови</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/putesh.jpg" class="d-block w-100" style="height: 486px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Путешествие</h5>
+        <p>Я успел посетить несколько европейских стран, и не хочу на этом останавливаться</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+
+    <section class="hero" style="background-color: #0D0D0D;">
+      <h2 class="text-white text-center py-5">Немного обо мне</h2>
+        <div class="container">
+            <div class="card mb-3 border-0 ms-3" style="max-width: 1140px; background-color: #0D0D0D;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./images/photo-hero.jpg" class="img-fluid rounded-start pb-5" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title text-white pb-4">Привет, я Баяман Мазирбаев</h2>
+            <p class="card-text text-white">Я Баяман, мне 21 год, я начинающий программист, предприниматель, с детсва занимался футболом, любил активный образ жизни, ставлю перед собой не заработать много денег, а изменить жизни людей, решить какую-то глобальную проблему, и помогать людям знаниями, деньгами, энергией и всем чем можно. </p>
+            <p class="card-text"><small class="text-info">С детсва чувстовал себя особенным, не таким как все</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="hobby row row-cols-1 row-cols-2">
+          <div class="col py-5">
+            <h2>Моя жизнь до армии</h2>
+            <p>До армии я был обычным парнем, который никогда не любил работать по найму, и всегда думал о бизнесе, никогда не думал, что будет завтра, жил только сегодняшним днем.</p>
+            <p>
+               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Инсайд
+                </button>
+            </p>
+              <p>Насколько я общительный человек</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">50%</div>
+            </div>
+             <p>Насколько легко меня вывезти из себя</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 20%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">20%</div>
+            </div>
+             <p>Насколько я добрый человек</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 99%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">99%</div>
+            </div>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal pt-2" id="collapseWidthExample">
+                   <div class="card card-body" style="width: 300px;">
+                     Не сожалеть о прошлом, каким бы оно не было, и не загоняться о том, что когда-то не так поступил.
+                   </div>
+                </div>
+            </div>
+          </div>
+          <div class="col py-5">
+            <img src="./images/new.jpg" style="height: 500px; width: 500px; border-radius: 50%;" alt="">
+          </div>
+          <div class="col pt-5">
+            <img src="./images/army.jpg" style="height: 500px; width: 500px; border-radius: 50%;" alt="">
+          </div>
+          <div class="col pt-5">
+            <h2>Мой год в армии</h2>
+            <p>Я настраивал себя позитивно не весь год, но оказывается все равно по началу будет тяжело, потмоу что все это для тебя в новинку, со временем привыкаешь и начианешь ценить эти моменты, ведь их больше никогда не будет, а в конце на удивление вовсе начинаешь скучать.</p>
+            <p>
+              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"             aria-controls="collapseWidthExample">
+                Инсайд
+              </button>
+            </p>
+             <p>мое интеллектуальное состояние</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 55%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">55%</div>
+            </div>
+             <p>мое духовное состояние</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">25%</div>
+            </div>
+             <p>мое физическое состояние</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">85%</div>
+            </div>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal pt-2" id="collapseWidthExample">
+                <div class="card card-body" style="width: 300px;">
+                  Нужно помнить прошлое, но не нужно им жить, надо жить настоящим и ценить моменты.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col py-5">
+            <h2>Моя жизнь после армии</h2>
+            <p>После армии моя жизнь очень сильно изменилась, уже нет того мальчишки, который не о чем не думал, не задумывался о том, откуда берутся деньги, я начал ценить время, родных и близких, деньги.</p>
+            <p>
+             <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"            aria-controls="collapseWidthExample">
+               Инсайд
+             </button>
+           </p>
+           <p>умение выступать перед публикой</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 60%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">60%</div>
+            </div>
+             <p>дисциплина</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 35%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">35%</div>
+            </div>
+             <p>достижение поставленных задач</p>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" aria-label="Basic example" style="width: 90%" aria-valuenow="25" aria-valuemin="0"             aria-valuemax="100">90%</div>
+            </div>
+           <div style="min-height: 120px;">
+             <div class="collapse collapse-horizontal pt-2" id="collapseWidthExample">
+               <div class="card card-body" style="width: 300px;">
+                 Каждому советую обязательно сходить в армию, по другому начинаешь ценить родных, время,деньги.
+               </div>
+             </div>
+           </div>
+          </div>
+          <div class="col py-5">
+            <img src="./images/mack.jpg" style="height: 500px; width: 500px; border-radius: 70%;" alt="">
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <sectino class="attantion">
+      <div class="container py-5">
+        <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Читать внимательно!</h4>
+  <p>я очень рад сейчас оглянуться назад и посмотреть свой пройденный путь, очень много чего сделано, год назад я даже не догадывался, что я окажусь в сфере IT, настолько жизнь не предсказуема, что произойти может все, что угодно.</p>
+  <hr>
+  <p class="mb-0">Нужно продолжать упорно работать и двигаться дальше, главное не останавливаться!</p>
+</div>
+      </div>
+    </sectino>
+
+    <section class="fackts py-5">
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <h2 class="text-center pb-4">Качества над которыми мне нужно работать!</h2>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        #1 Креативность
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">По-моему мнению, креативность одна из качеств, которое мне нужно подтянуть, моментами мне просто в голову ничего не приходит.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        #2 Дисциплина
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Дисциплина одно из самых важных для меня качеств, над которым я постоянно работаю и стараюсь всегда улучшать. это залог успеха по моему мнению.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        #3 Лень
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Я считаю себя очень ленивым человеком, иногда кажется, что если-бы не лень, я бы давно стал миллионером хах, поэтому буду стараться избавляться от этого плохого качества.</div>
+    </div>
+  </div>
+</div>
+    </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="d-flex flex-column justify-content-center w-100 h-100">
+  <div class="d-flex flex-column justify-content-center align-items-center py-5">
+    <h1 class="fw-light text-white m-0">Интересно ли было вам?</h1>
+    <p>круто получилось?</p>
+    <div class="btn-group my-5">
+      <a href="#" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i>Да </a>
+      <a href="#" class="btn btn-outline-light">Очень круто <i class="fas fa-expand ms-2"></i></a>
+    </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Закрыть страницу
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Вы уверены, что хотите покинуть сайт?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Не стоит покидать страницу, ведь столько пота и крови вложены в создание этого сайта.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Остаться</button>
+        <button type="button" class="btn btn-primary">Выйти</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+      </div>
+    </section>
+
+    <section class="firm-info">
+      <div class="container">
+        <div class="footer-info">
+          <div class="footer-info__firm">
+          <ul>
+            <li class="bold">О себе</li>
+            <li>Интересные факты</li>
+            <li>Фото</li>
+            <li>Карьера</li>
+            <li>Связаться</li>
+          </ul>
+        </div>
+        <div class="footer-info__support">
+          <ul>
+            <li class="bold">Поддержка</li>
+            <li>Центр помощи</li>
+            <li>Центр безопасности</li>
+            <li>Сообщество</li>
+          </ul>
+        </div>
+        <div class="footer-info__legal">
+          <ul>
+            <li class="bold">Реквизиты</li>
+            <li>Договор</li>
+            <li>Политика конфиденциальности</li>
+            <li>Условия обслуживания</li>
+          </ul>
+        </div>
+        <div class="footer-info__install">
+          <h5>Скачать приложение</h5>
+          <img src="./images/Layer 2.png" alt="">
+          <img src="./images/qwertyqwer.svg" alt="">
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="media">
+          <div>
+            <span>© 2023 - Создан этот сайт</span>
+          </div>
+          <div class="icon">
+            <img src="./images/Group 27.svg" alt="">
+              <img src="./images/Group 28.svg" alt="">
+              <img src="./images/Group 29.svg" alt="">
+              <img src="./images/Group 30.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
   </body>
 </html>

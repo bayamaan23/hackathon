@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header{
+    background-color: #165a6e;
+}
+.nav-link :hover{
+    color: #a2a4e6;
+}
+.main-text{
+    display: flex;
+    justify-content: space-between;
+}
+.fackts{
+    background-color: #a4bbde;
+}
+.secondary-info{
+    display: flex;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+.polygon img {
+  clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%);
+}
+.firm-info {
+  background-color: #1d2830;
+  padding-top: 50px;
+  margin-top: 80px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 50px;
+}
+.footer-img {
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+footer {
+  padding-bottom: 20px;
+  background-color: #1d2830;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #d9dbe1;
+}
+.icon img {
+  margin-left: 15px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-info li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.bold {
+  font-weight: 600;
+}
+.footer-info__install {
+  width: 162px;
+}
+.install img {
+  margin-bottom: 10px;
+}
